@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Master Pro</title>
+    <meta name="description" content="Pesanan Master PRO - Order & Receivables Operations Workspace with developer brand identity (Logo J Blue & Flame Orange), multi-store orders, aging receivables, and WhatsApp billing." />
+    <meta property="og:title" content="App Master Pro" />
+    <meta property="og:description" content="Pesanan Master PRO - Order & Receivables Operations Workspace with developer brand identity (Logo J Blue & Flame Orange), multi-store orders, aging receivables, and WhatsApp billing." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script>
+      (function() {
+        try {
+          var theme = localStorage.getItem('pesanan_master_theme');
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F5F0E8] text-[#2D2119] min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,10 @@
+{
+  "name": "App Master Pro",
+  "description": "Pesanan Master PRO - Order & Receivables Operations Workspace with developer brand identity (Logo J Blue & Flame Orange), multi-store orders, aging receivables, and WhatsApp billing.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
